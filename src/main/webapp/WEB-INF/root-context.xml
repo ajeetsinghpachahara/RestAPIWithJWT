@@ -6,10 +6,6 @@
 	
 	<!-- Root Context: defines shared resources visible to all other web components -->
 	
-	<!-- <import resource="classpath:application-bean-first.xml"/>
-	<import resource="classpath:spring-security-first.xml"/> -->
-	
-  
-	<import resource="classpath:application-bean-first.xml"/>
-	<import resource="classpath:spring-security-first.xml"/>
+	<import resource="classpath:application-bean.xml"/>
+	<import resource="classpath:spring-security.xml"/>
 </beans>
