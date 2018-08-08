@@ -1,11 +1,11 @@
-package com.ajeet.first.jwtsecurity;
+package com.ajeet.jwtsecurity;
 
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter;
 
-import com.ajeet.first.jwtmodel.JwtAuthenticationToken;
+import com.ajeet.jwtmodel.JwtAuthenticationToken;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

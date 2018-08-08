@@ -1,4 +1,4 @@
-package com.ajeet.first.jwtcontroller;
+package com.ajeet.jwtcontroller;
 
 
 

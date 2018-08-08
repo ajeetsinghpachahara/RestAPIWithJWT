@@ -1,4 +1,4 @@
-package com.ajeet.first.jwtmodel;
+package com.ajeet.jwtmodel;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

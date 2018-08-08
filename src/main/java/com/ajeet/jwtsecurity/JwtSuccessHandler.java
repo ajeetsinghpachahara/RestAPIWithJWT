@@ -1,4 +1,4 @@
-package com.ajeet.first.jwtsecurity;
+package com.ajeet.jwtsecurity;
 
 
 import org.springframework.security.core.Authentication;

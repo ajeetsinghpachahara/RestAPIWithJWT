@@ -1,4 +1,4 @@
-package com.ajeet.first.jwtmodel;
+package com.ajeet.jwtmodel;
 
 public class JwtUser {
     private String userName;

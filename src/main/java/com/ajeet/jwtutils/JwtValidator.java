@@ -1,10 +1,10 @@
-package com.ajeet.first.jwtutils;
+package com.ajeet.jwtutils;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import org.springframework.stereotype.Component;
 
-import com.ajeet.first.jwtmodel.JwtUser;
+import com.ajeet.jwtmodel.JwtUser;
 
 @Component
 public class JwtValidator {

@@ -1,4 +1,4 @@
-package com.ajeet.first.jwtsecurity;
+package com.ajeet.jwtsecurity;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,10 +10,10 @@ import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
-import com.ajeet.first.jwtmodel.JwtAuthenticationToken;
-import com.ajeet.first.jwtmodel.JwtUser;
-import com.ajeet.first.jwtmodel.JwtUserDetails;
-import com.ajeet.first.jwtutils.JwtValidator;
+import com.ajeet.jwtmodel.JwtAuthenticationToken;
+import com.ajeet.jwtmodel.JwtUser;
+import com.ajeet.jwtmodel.JwtUserDetails;
+import com.ajeet.jwtutils.JwtValidator;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.ajeet.first.jwtcontroller;
+package com.ajeet.jwtcontroller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ajeet.first.jwtmodel.JwtUser;
-import com.ajeet.first.jwtutils.JwtGenerator;
+import com.ajeet.jwtmodel.JwtUser;
+import com.ajeet.jwtutils.JwtGenerator;
 
 
 
