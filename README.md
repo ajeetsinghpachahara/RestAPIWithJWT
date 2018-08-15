@@ -1,2 +1,6 @@
 # RestAPIWithJWT
-It is the spring web mvc project, Mainly designed for Rest API using JWT with spring security
+### Summary about project
+###### Spring web mvc project
+###### Rest API's
+###### Using JWT for authentication using spring security
+###### Test Case using JUnit, mockito and Spring Test Framework
