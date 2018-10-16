@@ -1,10 +1,6 @@
 package com.ajeet.jwtmodel;
 
-/**
- * 
- * @author ourownjava.com
- *
- */
+
 public class Employee {
 	
 	private String id;

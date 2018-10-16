@@ -13,7 +13,7 @@ import com.ajeet.jwtmodel.JwtUserDetails;
 
 @RestController
 @RequestMapping("/rest")
-public class HelloController {
+public class BranchController {
 
     @RequestMapping( value = { "/hello" }, method = RequestMethod.GET)
     public String hello(HttpServletRequest request) {
@@ -22,9 +22,12 @@ public class HelloController {
         return "Hello "+userDetails.getUserName() ;
     }
     
-    @RequestMapping(value= "/findByName/{name}", method = RequestMethod.GET)
-   	@ResponseBody
-   	public Employee findByName(@PathVariable("name") final String name){
-   		return new Employee("E1", name);
-   	}
+    
+    /*@RequestMapping( value = { "/getAllBranches" }, method = RequestMethod.GET)
+    public String hello(HttpServletRequest request) {
+    	 Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+         JwtUserDetails userDetails = (JwtUserDetails)auth.getPrincipal(); 
+        return "Hello "+userDetails.getUserName() ;
+    }*/
+    
 }

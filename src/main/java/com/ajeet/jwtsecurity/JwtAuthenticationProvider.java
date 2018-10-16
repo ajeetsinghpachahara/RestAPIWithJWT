@@ -2,6 +2,7 @@ package com.ajeet.jwtsecurity;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider;
 import org.springframework.security.core.AuthenticationException;
@@ -37,7 +38,8 @@ public class JwtAuthenticationProvider extends AbstractUserDetailsAuthentication
         JwtUser jwtUser = jwtValidator.validate(token);
 
         if (jwtUser == null) {
-            throw new RuntimeException("JWT Token is incorrect");
+            //throw new RuntimeException("JWT Token is incorrect");
+        	throw new BadCredentialsException("JWT Token is incorrect");
         }
 
         List<GrantedAuthority> grantedAuthorities = AuthorityUtils
